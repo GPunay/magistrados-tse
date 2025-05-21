@@ -1,0 +1,69 @@
+.mainConsulta {
+    background-image: url("../../public/img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5%;
+}
+
+.consulta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 10%;
+    margin: 0;
+}
+
+.consultaTitulo {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 5% 3%;
+}
+
+.iconConsulta{
+    color: rgb(10, 120, 255);
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20% 20%;
+}
+
+.iconoConsulta {
+    font-size: 18em;
+}
+
+.cuadroConsulta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1% 3%;
+}
+
+.consultaParrafos {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: justify;
+    color: black;
+    margin: 2% 1%;
+}
+
+.consultaLink {
+    text-decoration: none;
+}
+
+.consultaLink:hover {
+    color: rgb(2, 51, 110);
+}

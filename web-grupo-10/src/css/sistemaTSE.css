@@ -1,0 +1,88 @@
+.sistemaTSE {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #003c96;
+    color: white;
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.header-title {
+    font-weight: bold;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    flex-grow: 1;
+}
+
+.logo-container {
+    margin-bottom: 5rem;
+    margin-left: 25rem;
+}
+
+.logoSistemaTSE {
+    max-width: 50%;
+    height: auto;
+}
+
+.modules-container {
+    background-color: #003c96;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.system-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.modules-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cambiado a 2 columnas */
+    gap: 1.5rem;
+}
+
+.module {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #003c96;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.module:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.module-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.module span {
+    font-weight: bold;
+    text-align: center;
+}

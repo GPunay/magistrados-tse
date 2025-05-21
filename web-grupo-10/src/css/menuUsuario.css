@@ -1,0 +1,70 @@
+
+.submenu-container {
+    position: fixed;
+    left: 15%; 
+    top: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding-top: 5%;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+
+.main-content-with-submenu {
+    margin-left: 30%;
+    width: 70%;
+    padding: 0;
+}
+
+.menuUsuarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #003c96;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gridMenuModuloUsuario {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6rem;
+    width: 100%;
+}
+
+.elementoGridUsuario {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #003c96;
+    transition: all 0.3s ease;
+}
+
+.elementoGridUsuario:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menuIconUsuario {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.elementoGridUsuario span {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.elementoGridUsuario.active {
+    background-color: #003c96;
+    color: white;
+}

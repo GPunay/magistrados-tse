@@ -1,0 +1,57 @@
+
+.MainMision {
+    background-image: url("../../public/img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5%;
+}
+
+.MisionColumna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 10%;
+}
+
+.MisionTitulo {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 20% 0;
+}
+
+.IconoMision {
+    color: rgb(10, 120, 255);
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35% 35%;
+}
+
+.IconMision {
+    font-size: 15em;
+}
+
+.MisionDescripcion {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: justify;
+    color: black;
+    margin: 3% 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3% 3%;
+}

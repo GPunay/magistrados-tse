@@ -1,0 +1,108 @@
+.mainOrganizacion {
+    background-image: url("../../public/img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 3%;
+}
+
+.organigramaPresentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 3%;
+}
+
+.organigrama {
+    width: 90%;
+    height: 65%;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 10%;
+    padding: 4% 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.integrantesTitulos {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(10, 120, 255);
+    margin: 0;
+    padding: 2% 10%;
+}
+
+.integrantesSubtitulos {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(10, 120, 255);
+    padding: 1% 25%;
+}
+
+.integrantesParrafos {
+    font-size: 1.2em;
+    text-align: justify;
+    color: black;
+    padding: 1.5% 15%;
+}
+
+.integrantesListas {
+    font-size: 1.2em;
+    text-align: justify;
+    color: black;
+    padding: 1.5% 10%;
+    margin: 0;
+}
+
+.integrantesListas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5%;
+    margin: 0;
+}
+
+.integrantesMagistrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 2% 8%;
+    margin: 0;
+}
+
+.integranteMagistrado {
+    width: 200%;
+    border-radius: 30%;
+    margin: 30% 0;
+    padding: 5% 0;
+}
+
+.alvaro {
+    width: 250%;
+    border-radius: 30%;
+    margin: 30% 0;
+    padding: 5% 0;
+}
+
+.pablo {
+    width: 300%;
+    border-radius: 30%;
+    margin: 30% 0;
+    padding: 5% 0;
+}

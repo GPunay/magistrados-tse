@@ -1,0 +1,71 @@
+
+.mantenimientoUsuarioContenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5%;
+}
+
+.logoMantenimientoTSE {
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+    padding: 0;
+}
+
+.mantenimientoTitulo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.menuModuloMantenimientoUsuarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003c96;
+    border-radius: 10px;
+    padding: 4rem;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gridMenuModuloMantenimiento {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cambiado a 2 columnas */
+    gap: 1.5rem;
+}
+
+.elementoGridMantenimiento {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #003c96;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.elementoGridMantenimiento:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menuIconMantenimiento {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.elementoGridMantenimiento span {
+    font-weight: bold;
+    text-align: center;
+}
